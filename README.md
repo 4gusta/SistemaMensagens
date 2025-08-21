@@ -1,23 +1,25 @@
-Sistema de Mensagens PHP + MySQL
+# Sistema de Mensagens em PHP
 
-Um sistema simples de mensagens para comunicação entre usuários, desenvolvido em PHP com MySQL.
+Este é um sistema de mensagens simples desenvolvido em PHP com MySQL. Permite que usuários se cadastrem, façam login, enviem mensagens, respondam e arquivem mensagens.
 
-Funcionalidades
+## Funcionalidades
 
-Cadastro e login de usuários
+- Cadastro de usuários
+- Login com nome e senha
+- Dashboard com mensagens ativas e arquivadas
+- Envio de mensagens para outros usuários
+- Responder mensagens
+- Arquivar e desarquivar mensagens
+- Logout
 
-Envio e recebimento de mensagens
+## Tecnologias
 
-Resposta direta às mensagens
+- PHP
+- MySQL
+- HTML/CSS
 
-Arquivar e desarquivar mensagens
+## Como usar
 
-Dashboard com mensagens ativas e arquivadas
-
-Tecnologias
-
-PHP
-
-MySQL
-
-HTML básico
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/4gusta/SistemaMensagens.git
