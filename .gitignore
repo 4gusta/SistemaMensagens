@@ -1,0 +1,17 @@
+# Ignorar arquivos de banco de dados
+*.sql
+*.db
+*.ibd
+*.frm
+
+# Não ignorar o schema (estrutura do banco)
+!database/schema.sql
+
+# Ignorar configs locais
+.env
+.DS_Store
+node_modules/
+vendor/
+
+# Logs
+*.log
